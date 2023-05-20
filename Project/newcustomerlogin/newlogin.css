@@ -1,0 +1,51 @@
+fieldset{
+    border-style: none;
+    width: 50rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.container1{
+    display: flex;
+}
+.container{
+    margin: 20px 0 0 370px;
+    background-color: #D8FFD6;
+    height: 350px;
+
+}
+input{
+    width: 18rem;
+    height: 35px;
+    border: none;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+.Sign-info{
+    width: 20rem;
+    padding: 5px ;
+}
+.personalInformation{
+    
+    padding: 5px ;
+    width: 25rem;
+}
+button{
+    background-color: darkgreen;
+    color: white;
+    width: 13.5rem; 
+    margin-left: 245px;
+    margin-top: 5px;
+    padding: 2px 2px;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+}
+legend{
+    font-weight: bolder;
+    margin-left: 370px;
+    font-size: 20px;
+}
+label{
+    color: #9BA49A;
+
+}

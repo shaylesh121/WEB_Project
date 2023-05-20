@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.pics img{
+    height: 320px;
+    width: 320px;
+    margin: 60px 40px 0 40px;
+}
+.pics{
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #D8FFD6;
+}
+.row1{
+    display: flex;
+    margin-left: 150px;
+}
+.checked {
+    color: orange;
+}
+
+
+@media (max-width: 700px){
+
+    .pics{
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 50px;
+    background-color: #D8FFD6;
+}
+
+    .pics img{
+    height: 90px;
+    width: 90px;
+    margin: 60px 10px 0 10px;
+}
+
+.row1{
+    display: flex;
+    margin-left: 12px;
+}
+
+}

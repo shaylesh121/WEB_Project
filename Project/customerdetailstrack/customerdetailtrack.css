@@ -1,0 +1,41 @@
+		.outline{
+			border: 2px solid black;
+			height: 470px;
+            width: 800px;
+            margin: 0 0 40px 350px;
+
+		}
+		.bg{
+			background: #d8ffd6;
+			 height: 270px;
+             width: 500px;
+             margin: 80px 0 0 150px;
+             text-align: center;
+             padding: 30px 0;
+             border-radius: 5px;
+             box-shadow: 0px 5px 5px #888888;;
+         }
+         h5{
+         	margin-left: 350px;
+            margin-top: 40px;
+         	font-family: 'Mecton Regular';
+            font-size: 20px;
+
+         }
+         .bg button{
+         	background-color: #1e4b1b;
+         	color: white;
+         	padding: 8px 80px;
+         	border: none;
+         	cursor: pointer;
+         }
+        .bg input{
+         	width: 70%;
+         	padding: 8px 20px;
+         	border-radius: 20px;
+         	border: none;
+         }
+         ::placeholder{
+         	text-align: center;
+         }
+

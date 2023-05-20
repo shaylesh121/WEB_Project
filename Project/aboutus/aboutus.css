@@ -1,0 +1,66 @@
+.ones, .twos{
+			height: 490px;
+			width: 1000px;
+			background: #d8ffd6;
+			display: flex;
+			margin: 20px 0 100px 250px;
+			text-align: center;
+			
+
+		}
+		.texts{
+			text-align: left;
+			height: 100px;
+			width: 500px;
+			margin: 40px 10px 10px 10px;
+			font-size: 22px;
+			padding: 0.5px 20px 0 35px;
+		}
+		h2{
+			margin-left: 250px;
+
+		}
+		img{
+			width: 500px;
+		}
+
+
+		@media (max-width: 700px){
+
+			.ones, .twos{
+			height: 250px;
+			width: 400px;
+			background: #d8ffd6;
+			display: flex;
+			margin: 20px 20px 100px 0;
+			text-align: center;
+			
+
+		}
+
+		.texts{
+			text-align: left;
+			height: 100px;
+			width: 600px;
+			margin: 0px 10px 10px 1px;
+			font-size: 22px;
+			padding: 0 5px 0 10px;
+		}
+
+		img{
+			width: 200px;
+			height: 250px;
+		}
+		.texts p{
+			font-size: 11px;
+		}
+
+		h2{
+			margin-left: 50px;
+			font-size: 15px;
+
+		}
+
+
+
+		}
